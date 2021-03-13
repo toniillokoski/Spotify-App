@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+import './App.scss';
 
 import Login from "./Login";
 
@@ -8,7 +8,6 @@ function App() {
     <div className="App">
 
       <Login />
-      <h2>Hieno logo!</h2>
 
     </div>
   );
