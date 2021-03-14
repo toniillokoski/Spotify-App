@@ -26,6 +26,7 @@
   border-radius: 2rem;
   background-color: #1db954;
   border: none;
+  width: 15rem;
 }
 
 .login button:hover {
@@ -35,7 +36,6 @@
 .login button a {
   text-decoration: none;
   color: white;
-  font-size: 0.75rem;
   font-weight: 800;
 }
 /*# sourceMappingURL=Login.css.map */

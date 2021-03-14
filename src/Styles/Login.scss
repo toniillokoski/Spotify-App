@@ -18,6 +18,7 @@
         border-radius: 2rem;
         background-color: $spotify;
         border: none;
+        width: 15rem;
 
         &:hover {
             background-color: $spotifyhover;
@@ -26,7 +27,6 @@
         a {
             text-decoration: none;
             color: white;
-            font-size: 0.75rem;
             font-weight: 800;
         }
     }
