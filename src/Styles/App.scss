@@ -4,20 +4,12 @@
   padding: 0;
   margin: 0;
   font-size: 20px;
-}
-
-body {
-  background-color: $darkbackground;
+  font-family: sans-serif;
   overflow: hidden;
 }
 
 .App {
-  background-color: $darkbackground;
-  margin: 0 auto;
-  min-height: 100vh;
-  max-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid yellow;
+  background-color: $background;
+  height: 100vh;
 }
 

@@ -12,9 +12,7 @@ function Main({ spotify }) {
                 <Body />
             </div>
 
-            <div className="footer_player">
-                <Player />
-            </div>
+            <Player />
         </div>
     )
 }

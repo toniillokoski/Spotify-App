@@ -1,8 +1,16 @@
 .sidebar {
-  border: 1px solid red;
   height: 100vh;
   -webkit-box-flex: 0.2;
       -ms-flex: 0.2;
           flex: 0.2;
+  background-color: #0f0f0f;
+  color: white;
+  padding: 0.5rem;
+}
+
+.sidebar img {
+  margin-right: auto;
+  width: 50%;
+  padding: 20px;
 }
 /*# sourceMappingURL=Sidebar.css.map */

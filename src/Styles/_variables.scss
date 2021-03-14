@@ -1,9 +1,14 @@
 // COLORS
-$darkbackground: rgb(25, 25, 25);
-$lightbackground: rgb(225, 225, 225);
+//BG
+$background: rgb(25, 25, 25);
 
+//BUTTONS AND ACCENT
 $spotify: #1db954;
 $spotifyblack: #191414;
-
 $spotifyhover: #24eb6a;
-$spotifyblackhover: #282121
+$spotifyblackhover: #282121;
+
+//UI
+$body: linear-gradient(rgb(48, 48, 48), rgba(19, 19, 19, 1));
+$sidebar: rgb(15, 15, 15);
+$player: rgb(27, 27, 27);

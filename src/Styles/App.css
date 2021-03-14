@@ -2,25 +2,12 @@
   padding: 0;
   margin: 0;
   font-size: 20px;
-}
-
-body {
-  background-color: #191919;
+  font-family: sans-serif;
   overflow: hidden;
 }
 
 .App {
   background-color: #191919;
-  margin: 0 auto;
-  min-height: 100vh;
-  max-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  border: 1px solid yellow;
+  height: 100vh;
 }
 /*# sourceMappingURL=App.css.map */

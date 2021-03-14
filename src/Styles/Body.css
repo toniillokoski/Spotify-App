@@ -1,8 +1,10 @@
 .body {
-  border: 1px solid green;
   -webkit-box-flex: 0.8;
       -ms-flex: 0.8;
           flex: 0.8;
+  background: -webkit-gradient(linear, left top, left bottom, from(#303030), to(#131313));
+  background: linear-gradient(#303030, #131313);
   height: 100vh;
+  padding: 1.5rem;
 }
 /*# sourceMappingURL=Body.css.map */

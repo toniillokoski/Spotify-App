@@ -4,7 +4,7 @@ import './Styles/Player.scss';
 function Player() {
     return (
         <div className="player">
-            <h1>IM FOOTER</h1>
+            <h1>IM PLAYER</h1>
         </div>
     )
 }

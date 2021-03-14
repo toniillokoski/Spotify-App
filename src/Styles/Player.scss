@@ -1,9 +1,13 @@
 @import './variables';
 
 .player {
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    left: 0;
     height: 65px;
-    width: 100%;
-    border: 1px solid cyan;
+    width: 100vw;
+    background-color: $player;
+    padding: 1rem 0rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px, rgba(0, 0, 0, 0.479) 0px 1px 2px;
+    text-align: center;
 }
