@@ -9,13 +9,33 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 100vh;
+  background-color: #191919;
 }
 
 .login img {
-  width: 300px;
+  width: 400px;
+  padding: 2rem;
 }
 
 .login button {
-  padding: 30px;
+  padding: 0.75rem;
+  border-radius: 2rem;
+  background-color: #1db954;
+  border: none;
+}
+
+.login button:hover {
+  background-color: #24eb6a;
+}
+
+.login button a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 800;
 }
 /*# sourceMappingURL=Login.css.map */
