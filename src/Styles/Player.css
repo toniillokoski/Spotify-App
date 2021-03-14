@@ -1,0 +1,8 @@
+.player {
+  position: absolute;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+  border: 1px solid cyan;
+}
+/*# sourceMappingURL=Player.css.map */

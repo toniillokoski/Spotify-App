@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAC;EACJ,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,cAAc;CACzB",
+    "sources": [
+        "Player.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "Player.css"
+}

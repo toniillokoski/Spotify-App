@@ -1,0 +1,8 @@
+.body {
+  border: 1px solid green;
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+  height: 100vh;
+}
+/*# sourceMappingURL=Body.css.map */

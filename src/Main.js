@@ -1,9 +1,20 @@
-import React from 'react'
+import React from 'react';
+import Body from './Body';
+import Player from './Player';
+import Sidebar from './Sidebar';
+import "./Styles/Main.scss";
 
-function Main() {
+function Main({ spotify }) {
     return (
-        <div>
-            <h1>Welcome to Spotify-App</h1>
+        <div className="main">
+            <div className="main_body">
+                <Sidebar />
+                <Body />
+            </div>
+
+            <div className="footer_player">
+                <Player />
+            </div>
         </div>
     )
 }
