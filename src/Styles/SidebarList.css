@@ -1,6 +1,6 @@
 .sidebarList {
   color: grey;
-  height: 2rem;
+  height: 40px;
   cursor: pointer;
   -webkit-transition: 200ms color ease-in;
   transition: 200ms color ease-in;
@@ -17,10 +17,17 @@
 }
 
 .sidebarList .sidebarIcon {
-  padding: 0rem 0.3rem;
+  margin-left: 10px;
+  padding: 10px;
 }
 
 .sidebarList h4 {
   font-size: 0.7rem;
+  padding: 5px;
+}
+
+.sidebarList p {
+  margin-left: 20px;
+  font-size: 12px;
 }
 /*# sourceMappingURL=SidebarList.css.map */

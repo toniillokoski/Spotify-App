@@ -13,4 +13,16 @@
   width: 50%;
   padding: 20px;
 }
+
+.sidebar .sidebarTitle {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.sidebar hr {
+  border: 1px solid #1b1b1b;
+  width: 90%;
+  margin: 10px auto;
+}
 /*# sourceMappingURL=Sidebar.css.map */
