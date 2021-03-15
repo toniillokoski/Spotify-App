@@ -1,8 +1,61 @@
 @import './variables';
 
 .body {
-    flex: 0.8;
+    flex: 0.85;
     background: $body;
     height: 100vh;
     padding: 1.5rem;
+    color: white;
+
+    .body_banner {
+        display: flex;
+        align-items: flex-end;
+        padding: 10px;
+
+        .banner_img {
+            height: 25vh;
+            margin: 0 20px;
+            box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        .banner_info {
+            flex: 1;
+            padding: 20px;
+
+            h2 {
+                font-size: 60px;
+                margin-bottom: 10px;
+            }
+
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .body_songs {
+
+        margin: 20px -30px;
+
+        .song_icon {
+            display: flex;
+            align-items: center;
+
+            .playbutton {
+                font-size: 80px !important;
+                margin-left: 50px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+
+                &:hover {
+                    transition: 150ms transform ease-in;
+                    transform: scale(1.1);
+                }
+            }
+
+            .MuiSvgIcon-root {
+                margin-right: 20px;
+            }
+        }
+    }
 }
