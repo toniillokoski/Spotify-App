@@ -6,6 +6,12 @@
   margin-bottom: 70px;
   width: 85vw;
   margin-left: 15vw;
+  overflow-y: overlay;
+  height: 100vh;
+}
+
+.body::-webkit-scrollbar {
+  display: none;
 }
 
 .body .body_banner {

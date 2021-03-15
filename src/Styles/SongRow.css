@@ -10,7 +10,28 @@
   color: white;
 }
 
+.songrow:hover {
+  cursor: pointer;
+  background-color: black;
+  opacity: 0.7;
+}
+
 .songrow .albumimage {
-  width: 10vh;
+  height: 40px;
+  width: 40px;
+}
+
+.songrow .songinfo {
+  margin-left: 20px;
+}
+
+.songrow .songinfo h1 {
+  font-size: 16px;
+}
+
+.songrow .songinfo p {
+  font-size: 14px;
+  margin-top: 3px;
+  color: grey;
 }
 /*# sourceMappingURL=SongRow.css.map */

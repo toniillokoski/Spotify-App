@@ -29,7 +29,7 @@ function Body({ spotify }) {
                     <FavoriteIcon fontSize="large" />
                     <MoreHorizIcon />
                 </div>
-                {/* {LIST OF SONGS} */}
+
                 {discover_weekly?.tracks.items.map((item) => (
                     <SongRow track={item.track} key={item.track.toString()}/>
                 ))}
