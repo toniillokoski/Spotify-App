@@ -14,7 +14,11 @@ function Player() {
     return (
         <div className="player">
             <div className="album">
-                <p>Album here</p>
+                <img src="" alt="" className="songimage" />
+                <div className="songinfo">
+                    <h4>Mehu</h4>
+                    <p>Tippa-T</p>
+                </div>
             </div>
 
             <div className="controls">
