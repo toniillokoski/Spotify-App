@@ -1,8 +1,7 @@
 .sidebar {
+  position: fixed;
+  width: 15vw;
   height: 100vh;
-  -webkit-box-flex: 0.15;
-      -ms-flex: 0.15;
-          flex: 0.15;
   background-color: #0f0f0f;
   color: white;
   padding: 0.5rem;

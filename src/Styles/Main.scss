@@ -1,6 +1,12 @@
 @import './variables';
 
-.main_body {
-    display: flex;
-    overflow: hidden;
+
+.main {
+    width: 100vw;
+
+    .main_body {
+        display: flex;
+        overflow: hidden;
+        width: 100vw;
+    }
 }

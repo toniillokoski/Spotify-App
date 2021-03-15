@@ -1,0 +1,16 @@
+.songrow {
+  margin-left: 20px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.songrow .albumimage {
+  width: 10vh;
+}
+/*# sourceMappingURL=SongRow.css.map */

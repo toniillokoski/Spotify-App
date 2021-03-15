@@ -1,8 +1,9 @@
 @import './variables';
 
 .sidebar {
+    position: fixed;
+    width: 15vw;
     height: 100vh;
-    flex: 0.15;
     background-color: $sidebar;
     color: white;
     padding: 0.5rem;

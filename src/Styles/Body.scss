@@ -1,11 +1,12 @@
 @import './variables';
 
 .body {
-    flex: 0.85;
     background: $body;
-    height: 100vh;
     padding: 1.5rem;
     color: white;
+    margin-bottom: 70px;
+    width: 85vw;
+    margin-left: 15vw;
 
     .body_banner {
         display: flex;

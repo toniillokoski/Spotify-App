@@ -1,7 +1,12 @@
-.main_body {
+.main {
+  width: 100vw;
+}
+
+.main .main_body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
+  width: 100vw;
 }
 /*# sourceMappingURL=Main.css.map */

@@ -1,12 +1,11 @@
 .body {
-  -webkit-box-flex: 0.85;
-      -ms-flex: 0.85;
-          flex: 0.85;
   background: -webkit-gradient(linear, left top, left bottom, from(#303030), to(#131313));
   background: linear-gradient(#303030, #131313);
-  height: 100vh;
   padding: 1.5rem;
   color: white;
+  margin-bottom: 70px;
+  width: 85vw;
+  margin-left: 15vw;
 }
 
 .body .body_banner {
