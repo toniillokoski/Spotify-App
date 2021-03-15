@@ -7,7 +7,6 @@ export const initialState = {
 };
 
 const reducer = (state, action) => {
-    console.log(action);
 
     //Action -> type, action
 
