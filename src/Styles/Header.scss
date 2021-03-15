@@ -1,0 +1,36 @@
+@import './variables';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    .header_left {
+        flex: 0.5;
+        background-color: white;
+        color: $spotify;
+        border-radius: 30px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+
+         input {
+             border: none;
+             width: 100%;
+
+             &:focus {
+                outline: none;
+             }
+         }
+    }
+
+    .header_right {
+        display: flex;
+        align-items: center;
+
+        h4 {
+            margin-left: 10px;
+            color: white;
+        }
+    }
+}

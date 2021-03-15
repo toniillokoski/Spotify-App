@@ -1,0 +1,49 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header .header_left {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  background-color: white;
+  color: #1db954;
+  border-radius: 30px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header_left input {
+  border: none;
+  width: 100%;
+}
+
+.header .header_left input:focus {
+  outline: none;
+}
+
+.header .header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header_right h4 {
+  margin-left: 10px;
+  color: white;
+}
+/*# sourceMappingURL=Header.css.map */
