@@ -14,7 +14,9 @@ function Player() {
     return (
         <div className="player">
             <div className="album">
-                <img src="./Images/weeknd1.jpeg" alt="" className="songimage" />
+                <img    src="https://img.discogs.com/AnoqBncXnNEWU7QdVcyBgBewE84=/fit-in/600x601/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-14970187-1586028941-7305.jpeg.jpg" 
+                        alt="" 
+                        className="songimage" />
                 <div className="songinfo">
                     <h4>After Hours</h4>
                     <p>The Weeknd</p>

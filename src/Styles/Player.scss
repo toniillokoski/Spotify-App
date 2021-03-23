@@ -54,11 +54,14 @@
     .volume {
         flex: 0.3;
         color: white;
+        position: relative;
+        left: 7rem;
 
         .MuiGrid-root {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            max-width: 400px;
 
             span {
                 color: white;
