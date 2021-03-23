@@ -16,8 +16,8 @@ function Player() {
             <div className="album">
                 <img src="" alt="" className="songimage" />
                 <div className="songinfo">
-                    <h4>Mehu</h4>
-                    <p>Tippa-T</p>
+                    <h4>After Hours</h4>
+                    <p>The Weeknd</p>
                 </div>
             </div>
 
