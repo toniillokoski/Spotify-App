@@ -14,7 +14,7 @@ function Player() {
     return (
         <div className="player">
             <div className="album">
-                <img src="" alt="" className="songimage" />
+                <img src="./Images/weeknd1.jpeg" alt="" className="songimage" />
                 <div className="songinfo">
                     <h4>After Hours</h4>
                     <p>The Weeknd</p>
