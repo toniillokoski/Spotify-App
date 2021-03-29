@@ -80,6 +80,8 @@
       -ms-flex: 0.3;
           flex: 0.3;
   color: white;
+  position: relative;
+  left: 7rem;
 }
 
 .player .volume .MuiGrid-root {
@@ -92,6 +94,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  max-width: 400px;
 }
 
 .player .volume .MuiGrid-root span {
