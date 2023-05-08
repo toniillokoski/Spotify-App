@@ -2,32 +2,22 @@
   color: grey;
   height: 40px;
   cursor: pointer;
-  -webkit-transition: 200ms color ease-in;
   transition: 200ms color ease-in;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .sidebarList:hover {
   color: white;
 }
-
 .sidebarList .sidebarIcon {
   margin-left: 10px;
   padding: 10px;
 }
-
 .sidebarList h4 {
   font-size: 0.7rem;
   padding: 5px;
 }
-
 .sidebarList p {
   margin-left: 20px;
   font-size: 12px;
-}
-/*# sourceMappingURL=SidebarList.css.map */
+}/*# sourceMappingURL=SidebarList.css.map */

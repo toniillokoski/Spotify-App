@@ -1,6 +1,5 @@
 .body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#303030), to(#131313));
-  background: linear-gradient(#303030, #131313);
+  background: linear-gradient(rgb(48, 48, 48), rgb(19, 19, 19));
   padding: 1.5rem;
   color: white;
   margin-bottom: 70px;
@@ -9,74 +8,47 @@
   overflow-y: overlay;
   height: 100vh;
 }
-
 .body::-webkit-scrollbar {
   display: none;
 }
-
 .body .body_banner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  align-items: flex-end;
   padding: 10px;
 }
-
 .body .body_banner .banner_img {
   height: 25vh;
   margin: 0 20px;
-  -webkit-box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
 }
-
 .body .body_banner .banner_info {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
   padding: 20px;
 }
-
 .body .body_banner .banner_info h2 {
   font-size: 60px;
   margin-bottom: 10px;
 }
-
 .body .body_banner .banner_info p {
   font-size: 14px;
 }
-
 .body .body_songs {
   margin: 20px -30px;
 }
-
 .body .body_songs .song_icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .body .body_songs .song_icon .playbutton {
   font-size: 80px !important;
   margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .body .body_songs .song_icon .playbutton:hover {
-  -webkit-transition: 150ms -webkit-transform ease-in;
-  transition: 150ms -webkit-transform ease-in;
   transition: 150ms transform ease-in;
-  transition: 150ms transform ease-in, 150ms -webkit-transform ease-in;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
-
 .body .body_songs .song_icon .MuiSvgIcon-root {
   margin-right: 20px;
-}
-/*# sourceMappingURL=Body.css.map */
+}/*# sourceMappingURL=Body.css.map */

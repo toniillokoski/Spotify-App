@@ -3,35 +3,20 @@
   bottom: 0;
   height: 65px;
   width: 100vw;
-  background-color: #1b1b1b;
+  background-color: rgb(27, 27, 27);
   padding: 1rem 0rem;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px, rgba(0, 0, 0, 0.479) 0px 1px 2px;
-          box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px, rgba(0, 0, 0, 0.479) 0px 1px 2px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px, rgba(0, 0, 0, 0.479) 0px 1px 2px;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 .player .album {
-  -webkit-box-flex: 0.3;
-      -ms-flex: 0.3;
-          flex: 0.3;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  flex: 0.3;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   color: white;
   width: 300px;
 }
-
 .player .album .songimage {
   height: 70px;
   width: 70px;
@@ -39,69 +24,40 @@
   -o-object-fit: contain;
      object-fit: contain;
 }
-
 .player .album .songinfo h4 {
   margin-bottom: 5px;
 }
-
 .player .album .songinfo p {
   font-size: 14px;
 }
-
 .player .controls {
-  -webkit-box-flex: 0.4;
-      -ms-flex: 0.4;
-          flex: 0.4;
+  flex: 0.4;
   padding: 0 100px;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   max-width: 300px;
 }
-
 .player .controls .control_icon:hover, .player .controls .control_green:hover {
-  -webkit-transition: -webkit-transform 0.15s ease-in-out;
-  transition: -webkit-transform 0.15s ease-in-out;
   transition: transform 0.15s ease-in-out;
-  transition: transform 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
-  -webkit-transform: scale(1.2) !important;
-          transform: scale(1.2) !important;
+  transform: scale(1.2) !important;
 }
-
 .player .volume {
-  -webkit-box-flex: 0.3;
-      -ms-flex: 0.3;
-          flex: 0.3;
+  flex: 0.3;
   color: white;
   position: relative;
   left: 7rem;
 }
-
 .player .volume .MuiGrid-root {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   max-width: 400px;
 }
-
 .player .volume .MuiGrid-root span {
   color: white;
 }
-
 .player .volume .MuiGrid-root span .MuiSlider-track {
   color: #1db954;
-}
-/*# sourceMappingURL=Player.css.map */
+}/*# sourceMappingURL=Player.css.map */
